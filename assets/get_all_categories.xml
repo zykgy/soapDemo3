@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:vm="http://www.virtuemart.net/VM_Categories/" >
+
+    <soapenv:Header />
+
+    <soapenv:Body>
+
+        <vm:GetAllCategoriesRequest>
+
+            <!-- You may enter the following 2 items in any order -->
+
+            <loginInfo>
+
+                <!-- You may enter the following 3 items in any order -->
+
+                <login>
+admin
+                </login>
+
+                <password>
+swad2012elg
+                </password>
+
+                <lang>
+?
+                </lang>
+            </loginInfo>
+
+            <category_publish>
+y
+            </category_publish>
+        </vm:GetAllCategoriesRequest>
+    </soapenv:Body>
+
+</soapenv:Envelope>
